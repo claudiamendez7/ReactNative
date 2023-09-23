@@ -62,7 +62,7 @@ export default MealDetailScreen;
 
 const styles = StyleSheet.create({
     rootContainter: {
-        marginBottom: 30
+        marginBottom: 32,
     },
     image: {
         width: '100%',
@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
     title: {
         fontWeight: 'bold',
         fontSize: 24,
+        margin: 8,
         textAlign: 'center',
         color: 'white',
     },
@@ -78,9 +79,9 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     lsitOuterContainer: {
-        alignItems: 'center'
+        alignItems: 'center',
     },
     listContainer: {
         width: '80%'
-    }
+    },
 });
